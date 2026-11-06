@@ -1,0 +1,12 @@
+/build/
+/target/
+target/
+Cargo.lock
+/stage/
+/stage-host/
+# Generated per-machine from cmake/DelugeToolchain.cmake.in + $DELUGE_BASE;
+# bakes in an absolute local path, so it must not be committed.
+/cmake/DelugeToolchain.cmake
+Testing/
+build*/
+**/__pycache__

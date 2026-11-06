@@ -1,0 +1,8 @@
+ 0 [Generic        ]: HDA-Intel - HD-Audio Generic
+                      HD-Audio Generic at 0xb04c8000 irq 107
+ 3 [Deluge         ]: USB-Audio - Deluge
+                      Synthstrom Audible Deluge at usb-0000:c3:00.3-1, high speed
+ 4 [UAC2Gadget     ]: UAC2_Gadget - UAC2_Gadget
+                      UAC2_Gadget 0
+ 5 [MIDI20Gadget   ]: f_midi2 - MIDI 2.0 Gadget
+                      MIDI 2.0 Gadget
