@@ -87,9 +87,10 @@ libraries, so run them on an image built from the same bundle.
 To run one on the Deluge:
 
 1. Cross-compile, and copy the binary from `build/examples/` to the SD card.
-2. Boot the `platform` image (`LINUX-platform.ELF` from the deluge-linux
-   release, or `make platform appelf` in deluge-linux). It has a shell; the
-   `base` image does not.
+2. Boot the `platform` image (`LINUX.ELF` from a deluge-linux release, or
+   `make platform appelf` in deluge-linux). It has a shell, and its launcher
+   can also run apps from `/LINUX/APPS/` without one; the `base` image has
+   neither.
 3. Log in as `root` (password `deluge`) over the USB serial console or
    `ssh root@192.168.7.2`. The SD card is mounted at `/sd`.
 4. Run it, e.g. `/sd/midi_echo`.
